@@ -1,0 +1,31 @@
+{
+    "name": "visual-studio-2019-theme-extracted-from-csharp-extension",
+    "displayName": "Visual Studio 2019 Theme (Extracted From C# Extension)",
+    "description": "",
+    "publisher": "yueyinqiu",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.116.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yueyinqiu/VscodeVisualStudio2019Theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Visual Studio 2019 Dark (Extracted From C# Extension)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            },
+            {
+                "label": "Visual Studio 2019 Light (Extracted From C# Extension)",
+                "uiTheme": "vs",
+                "path": "./themes/light.json"
+            }
+        ]
+    }
+}
