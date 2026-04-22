@@ -1,18 +1,19 @@
 {
     "name": "visual-studio-2019-themes-extracted-from-csharp-extension",
     "displayName": "Visual Studio 2019 Themes (Extracted From C# Extension)",
-    "description": "",
+    "description": "This extension allows you to use the Visual Studio 2019 themes without the large C# extension installed.",
     "publisher": "yueyinqiu",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.116.0"
     },
+    "icon": "./icon.png",
     "categories": [
         "Themes"
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:yueyinqiu/VscodeVisualStudio2019ThemesExtractedFromCSharpExtension.git"
+        "url": "https://github.com/yueyinqiu/VscodeVisualStudio2019ThemesExtractedFromCSharpExtension.git"
     },
     "contributes": {
         "themes": [
